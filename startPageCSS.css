@@ -1,0 +1,17 @@
+#humu {
+    min-height: 98.3vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.startBtn {
+    width: 25%;
+    height: 5rem;
+    background-color: black;
+    color: white;
+}
+button {
+    border-radius: -500%;
+
+}
