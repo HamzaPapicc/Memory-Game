@@ -1,3 +1,11 @@
+body {
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 7rem;
+    font-family: 'Shizuru', cursive;
+}
 #humu {
     min-height: 98.3vh;
     width: 100%;
@@ -10,7 +18,4 @@
     height: 5rem;
     background-color: black;
     color: white;
-}
-button {
-    border-radius: -500%;
 }
