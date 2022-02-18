@@ -1,17 +1,24 @@
 #main {
     min-height: 98.3vh;
     width: 100%;
-    background-color: brown;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
 .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 15rem;
     height: 10rem;
-    border: darkblue 1px solid;
-    background-color: cyan;
+    border: black 1px solid;
+    border-radius: 15px;
+    background: linear-gradient(to bottom right, lime, cyan);
     margin-right: 5%;
     margin-left: 5%;
+}
+.card img{
+    width: 35%;
+    height: 35%;
 }
