@@ -5,6 +5,8 @@ body {
 h1 {
     font-size: 7rem;
     font-family: 'Shizuru', cursive;
+    animation-name: moveTitle;
+    animation-duration: 2s;
 }
 #humu {
     min-height: 98.3vh;
@@ -18,4 +20,41 @@ h1 {
     height: 5rem;
     background-color: black;
     color: white;
+    animation-name: moveButton;
+    animation-duration: 2s;
+}
+@keyframes moveTitle {
+    0% {
+        color: white;
+    }
+    25% {
+        transform: translateX(-100%);
+        left: 0%;
+        color: white;
+    }
+    75% {
+        color: gray;
+    }
+    100% {
+        transform: translateX(0%);
+        left: 100%;
+    }
+}
+@keyframes moveButton {
+    0% {
+        color: white;
+        transform: translateX(200%)
+    }
+    25% {
+        transform: translateX(200%);
+        left: 0%;
+        color: white;
+    }
+    75% {
+        color: gray;
+    }
+    100% {
+        transform: translateX(0%);
+        left: 100%;
+    }
 }
